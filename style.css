@@ -1,0 +1,20 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  background: #1d2b1f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font-family: system-ui, sans-serif;
+  color: #fff;
+}
+
+#game {
+  width: min(100vw, calc(100vh * 624 / 672));
+  height: auto;
+  aspect-ratio: 624 / 672;
+  image-rendering: pixelated;
+  background: #72c450;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+}
